@@ -1,0 +1,22 @@
+Package: genericClassifier
+Type: Package
+Title: Trains and Test an SVM Classifier
+Version: 1.0
+Date: 2016-05-03
+Author: Thomas Whisenant
+Maintainer: Thomas Whisenant <thomas.whisenant@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: License: GPL (>=2)
+Imports: 
+   mRMRe,
+  pamr,
+  parallel,
+  plyr,
+  stringr,
+  affy,
+  e1071, 
+Suggests: 
+    knitr,
+    testthat
+LazyData: true
+VignetteBuilder: knitr
