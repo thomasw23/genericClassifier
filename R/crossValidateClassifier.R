@@ -55,9 +55,10 @@ crossValidateClassifier.default <- function(df, num_iter, ..., svm_cost=1, svm_g
 #'@return numeric vector
 #'@rdname crossValidateClassifier
 #'@examples 
+#'\dontrun {
 #'data(genericClassifierData)
-#'crossValidateClassifier(train_data, "full", svm_cost=1, svm_gamma="def")
-#'
+#'crossValidateClassifier(train_data, num_iter="full", svm_cost=1, svm_gamma="def")
+#'}
 
 crossValidateClassifier.character <- function(df, num_iter, ..., svm_cost=1, svm_gamma="def") {
   
