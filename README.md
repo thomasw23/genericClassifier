@@ -20,7 +20,7 @@ library(genericClassifier)
 ```
 
 ```s
-load training and validation data
+# load training and validation data
 data(genericClassifierData)
 ```
 
