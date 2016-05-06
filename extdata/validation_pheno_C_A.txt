@@ -1,0 +1,5 @@
+pheno	ID
+C	V001
+C	V002
+A	V003
+A	V004
